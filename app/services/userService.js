@@ -1,4 +1,5 @@
 import userRepository from "../dal/userRepository.js";
+import express from "express";
 
 
 const getAllProduces = async () => {
@@ -14,6 +15,7 @@ const updateUser = async (userId, updatedUser) => {
   return userRepository.updateUser(userId, updatedUser);
 };
 
+
 const deleteUser = async (userId) => {
   return userRepository.deleteUser(userId);
 };
@@ -23,6 +25,11 @@ const createUser = async (user) => {
     return userRepository.createUser(user);
   };
 
+  const updateAmount = async (userId, updatedUser) => {
+    return userRepository.updateAmount(userId, updatedUser);
+  };
+  
+
 
 export default {
   createUser,
@@ -30,4 +37,5 @@ export default {
   getAllProduces,
   updateUser,
   deleteUser,
+  updateAmount,
 };
