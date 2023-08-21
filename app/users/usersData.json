@@ -3,120 +3,42 @@
     "id": 1,
     "email": "user1@example.com",
     "password": "password1",
-    "isAdmin": false
+    "isAdmin": true,
+    "creatorId": "unique_id_1"
   },
   {
     "id": 2,
     "email": "user2@example.com",
     "password": "password2",
-    "isAdmin": false
+    "isAdmin": false,
+    "creatorId": "unique_id_2"
   },
   {
     "id": 3,
     "email": "user3@example.com",
     "password": "password3",
-    "isAdmin": false
+    "isAdmin": false,
+    "creatorId": "unique_id_3"
   },
   {
     "id": 4,
     "email": "user4@example.com",
     "password": "password4",
-    "isAdmin": false
+    "isAdmin": false,
+    "creatorId": "unique_id_4"
   },
   {
     "id": 5,
     "email": "user5@example.com",
     "password": "password5",
-    "isAdmin": false
+    "isAdmin": false,
+    "creatorId": "unique_id_5"
   },
   {
     "id": 6,
     "email": "user6@example.com",
     "password": "password6",
-    "isAdmin": false
-  },
-  {
-    "id": 7,
-    "email": "user7@example.com",
-    "password": "password7",
-    "isAdmin": false
-  },
-  {
-    "id": 8,
-    "email": "user8@example.com",
-    "password": "password8",
-    "isAdmin": false
-  },
-  {
-    "id": 9,
-    "email": "user9@example.com",
-    "password": "password9",
-    "isAdmin": false
-  },
-  {
-    "id": 10,
-    "email": "admin@example.com",
-    "password": "adminpassword",
-    "isAdmin": true
-  },
-  {
-    "id": 111,
-    "email": "admin@example.com",
-    "password": "adminpassword",
-    "isAdmin": true
-  },
-  {
-    "id": 111,
-    "email": "admin@example.com",
-    "password": "adminpassword",
-    "isAdmin": true
-  },
-  {
-    "id": 111,
-    "email": "admin@example.com",
-    "password": "adminpassword",
-    "isAdmin": true
-  },
-  {
-    "id": 111,
-    "email": "admin@example.com",
-    "password": "adminpassword",
-    "isAdmin": true
-  },
-  {
-    "id": 111,
-    "email": "admin@example.com",
-    "password": "adminpassword",
-    "isAdmin": true
-  },
-  {
-    "id": 111,
-    "email": "admin@example.com",
-    "password": "adminpassword",
-    "isAdmin": true
-  },
-  {
-    "id": 111,
-    "email": "admin@example.com",
-    "password": "adminpassword",
-    "isAdmin": true
-  },
-  {
-    "id": 111,
-    "email": "admin@example.com",
-    "password": "adminpassword",
-    "isAdmin": true
-  },
-  {
-    "id": 111,
-    "email": "admin@example.com",
-    "password": "adminpassword",
-    "isAdmin": true
-  },
-  {
-    "id": 111,
-    "email": "admin@example.com",
-    "password": "adminpassword",
-    "isAdmin": true
+    "isAdmin": false,
+    "creatorId": "unique_id_6"
   }
 ]
