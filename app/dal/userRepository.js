@@ -85,17 +85,6 @@ const updateAmount = async (userId, updatedUser) => {
   };
   
 
-// const updateUsemorAunt = async (userId, updatedUser) => {
-//     const users = await readUsersFromFile();
-//     const userIndex = users.findIndex((user) => user.id == userId);
-  
-//     users[userIndex] = { ...users[userIndex], ...updatedUser };
-//     await writeUsersToFile(users);
-  
-//     return users[userIndex];
-//   };
-  
-
 export default {
   createUser,
   getUser,
